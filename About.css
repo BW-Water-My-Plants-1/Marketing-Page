@@ -1,0 +1,127 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url ("https://media.istockphoto.com/photos/water-drop-on-white-picture-id155276424?k=6&m=155276424&s=170667a&w=0&h=Oe1MfxIY8iTIe__q_EwEPvjmS6-nivOXVBRDzWY9f1o=");
+}
+
+button {
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .menu {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1; 
+}
+
+.logo {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: darkslategray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.menu {
+    flex: 1;
+    justify-content: flex-end;
+}
+
+p {
+    width: 50%;
+}
+/* img {
+    border-radius: 50px;
+} 
+
+/* .about-us {
+    margin-right: 40px;
+} */
+
+
+/*.team {
+    margin-top: 60px;
+    padding: 60px;
+    display: flex;
+} 
+
+.teammates {
+    margin-top: 60px;
+    padding: 60px;
+    display: flex;
+} */
+
+
+.cta {
+    padding: 50px 0px 0px 0px;
+}
+
+.cta-signin {
+    border: 2px solid #145722;
+    background: white;
+    color: #145722;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cta-signup {
+    background: #145722;
+    color: white;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 50px 0px 0px 30px;
+}
+
+h1 {
+    color: #145722;
+}
+
+
+
+@media screen and (max-width: 1024px) {
+    .presentation {
+        flex-direction: column;
+    }
+    .introduction {
+        margin-top: 5vh;
+    }
+    
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3){}
