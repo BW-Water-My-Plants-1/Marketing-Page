@@ -43,6 +43,22 @@ nav {
     justify-content: space-around;
     list-style: none;
 }
+
+    
+
+.button-row {
+    color: firebrick;
+    display: flex;
+    justify-content: space-between;
+
+}
+.descriptions .p{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
 .bottom-section {
     padding-top: 50%;
     display: flex;
@@ -61,7 +77,7 @@ header {
       padding-top: 5%;
 
   }  
-logo-container {
+.logo-container {
       flex-direction: column;
       font-size: 1.2rem;;
       align-content: center;
@@ -71,6 +87,19 @@ logo-container {
         flex-direction: column;
         align-items; center;
         font-size: 1.2rem;;    
+    }
+    .button-box {
+        flex-direction: column;
+        
+        
+    }
+    p {
+        display: none;
+    }
+    .button-row {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
 }
         
