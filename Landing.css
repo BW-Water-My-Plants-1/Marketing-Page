@@ -12,6 +12,7 @@ body {
 button {
     font-family: 'Poppins', sans-serif;
 }
+
 header {
     display: flex;
     width: 90%;
@@ -73,7 +74,7 @@ nav {
 .intro-text p {
     margin-top: 5px;
     margin-right: 20px;
-    font-size: 22px; 
+    font-size: 21.5px; 
     font-weight: 500;
 }
 
@@ -111,7 +112,7 @@ h1 {
 }
 
 .cover img {
-    width: auto;
+    width: 900px;
     height: 80vh;
     display: flex;
     position: absolute;
@@ -132,7 +133,7 @@ h1 {
     z-index: -2;
     animation: drop 0.4s ease;
     position: absolute;
-    top: 50px;
+    top: 71px;
 }
 
 /*.droplet-select {

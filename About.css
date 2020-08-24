@@ -54,29 +54,25 @@ nav {
     justify-content: flex-end;
 }
 
-p {
-    width: 50%;
+img {
+    margin-bottom: 20px; 
 }
-/* img {
-    border-radius: 50px;
-} 
+
+
+p {
+    margin-bottom: 20px; 
+    margin-top: 20pz; 
+}
 
 /* .about-us {
     margin-right: 40px;
 } */
 
 
-/*.team {
-    margin-top: 60px;
-    padding: 60px;
-    display: flex;
-} 
 
-.teammates {
-    margin-top: 60px;
-    padding: 60px;
-    display: flex;
-} */
+.team {
+    display: flex; 
+}
 
 
 .cta {
