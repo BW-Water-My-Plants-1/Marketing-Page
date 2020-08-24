@@ -1,0 +1,49 @@
+
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-image: url ("https://media.istockphoto.com/photos/water-drop-on-white-picture-id155276424?k=6&m=155276424&s=170667a&w=0&h=Oe1MfxIY8iTIe__q_EwEPvjmS6-nivOXVBRDzWY9f1o=");
+}
+
+
+
+header {
+    display: flex;
+    width: 90%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+}
+
+.logo-container, .nav-links, .menu {
+    display: flex;
+}
+
+.logo-container {
+    flex: 1; 
+}
+
+.logo {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+nav {
+    flex: 3;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+@media(max-width: 500px){
+    .header {
+    display: flex;
+    flex-direction: column;
+    justif-content: center;
+    font-size: 80%;
+    }
+}
+  
+        
