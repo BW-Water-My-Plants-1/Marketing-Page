@@ -58,16 +58,14 @@ img {
     margin-bottom: 20px; 
 }
 
+div.info{
+    background-color:lightgray;
+    padding:5%;
+  }
 
-p {
-    margin-bottom: 20px; 
-    margin-top: 20pz; 
-}
-
-/* .about-us {
-    margin-right: 40px;
-} */
-
+div.info:hover{
+    background-color:#DEB887;
+  }
 
 
 .team {
@@ -76,7 +74,7 @@ p {
 
 
 .cta {
-    padding: 50px 0px 0px 0px;
+    padding: 40px 0px 0px 0px;
 }
 
 .cta-signin {
