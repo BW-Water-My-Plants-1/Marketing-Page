@@ -1,10 +1,17 @@
 
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background-image: url ("https://media.istockphoto.com/photos/water-drop-on-white-picture-id155276424?k=6&m=155276424&s=170667a&w=0&h=Oe1MfxIY8iTIe__q_EwEPvjmS6-nivOXVBRDzWY9f1o=");
+html {
+    min-height:100%
 }
+body {
+    background-size: cover;
+    font-family: 'Poppins', sans-serif; 
+    font-size: 1.5rem
+}
+ 
+    
+
 
 
 
@@ -28,7 +35,9 @@ header {
     font-weight: 700;
     margin-top: 15px;
 }
-
+.menu {
+    padding-left: 5%;
+}
 nav {
     flex: 3;
 }
@@ -37,13 +46,66 @@ nav {
     justify-content: space-around;
     list-style: none;
 }
-@media(max-width: 500px){
-    .header {
+
+    
+
+.button-row {
     display: flex;
-    flex-direction: column;
-    justif-content: center;
-    font-size: 80%;
-    }
+    justify-content: space-between;
+    padding-top: 20%;
 }
   
+
+.p.descriptions {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+    
+    
+
+.bottom-section {
+    padding-top: 20%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.catchPhrase {
+    text-align: center;
+}
+    
+
+@media(max-width: 500px){
+header {
+    flex-direction: column;
+    justify-content: center;
+    font-size: 0.8rem;
+    }
+.menu{
+      justify-content: space-around;
+      padding-top: 5%;
+    }  
+
+.logo-container {
+      flex-direction: column;
+      font-size: 1.2rem;;
+      align-content: center;
+  }  
+
+    .nav-links {
+        flex-direction: column;
+        align-items; center;
+        font-size: 1.2rem;;    
+    }
+    
+    p {
+        display: none;
+    }
+    .button-row {
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}
         
