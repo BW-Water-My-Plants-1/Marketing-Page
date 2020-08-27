@@ -68,6 +68,7 @@ nav {
 
 h1 {
     text-shadow: 2px 2px #ffffff;
+    font-size: 2.5 rem;
   }
 
 .intro-text h1 {
@@ -84,6 +85,7 @@ h1 {
 
 .cta {
     padding: 50px 0px 0px 0px;
+    text-decoration: none;
 }
 
 /*.cta-signin {
@@ -107,7 +109,7 @@ h1 {
 } */
 
 a {
-    border: 2px solid #145722;
+    /*border: 2px solid #145722; */
     background: white;
     color: #145722;
     width: 150px;
@@ -133,7 +135,7 @@ h1 {
     position: absolute;
     right: 4%;
     top: 80px;
-    margin: 0px;
+    margin: 20 0 0 0;
     z-index: -1;
     opacity: 0.8;
 }
@@ -169,7 +171,7 @@ h1 {
     }
 } 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1000px) {
     .presentation {
         flex-direction: column;
     }
@@ -182,6 +184,6 @@ h1 {
 
 /* Portrait and Landscape */
 @media only screen 
-  and (min-device-width: 414px) 
-  and (max-device-width: 736px) 
+  and (min-device-width: 500px) 
+  and (max-device-width: 1000px) 
   and (-webkit-min-device-pixel-ratio: 3){}
