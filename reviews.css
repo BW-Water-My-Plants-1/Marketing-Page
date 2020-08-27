@@ -21,12 +21,29 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
+/* Joes changed at 1700*/
 body {
-	line-height: 1;
+    justify-content: center;
+    line-height: 1;
+    
+  
+    
+}
+header {
+    justify-content: space-between;
+    display: flex;
+    width: 90%;
+}
+h1 {
+text-align: center;
+}
+.customerComments {
+    max-width: 75%;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    
 }
 ol, ul {
 	list-style: none;
@@ -43,11 +60,4 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
     
-    
-header {
-    display: flex;
-    width: 90%;
-    height: 10vh;
-    margin: auto;
-    align-items: center;
 }
