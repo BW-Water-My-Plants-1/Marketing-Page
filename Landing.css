@@ -129,8 +129,8 @@ h1 {
 }
 
 .cover img {
-    width: 900px;
-    height: 80vh;
+    width: 800px;
+    height: 700px;
     display: flex;
     position: absolute;
     right: 4%;
