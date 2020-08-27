@@ -129,8 +129,8 @@ h1 {
 }
 
 .cover img {
-    width: 900px;
-    height: 80vh;
+    width: 800px;
+    height: 700px;
     display: flex;
     position: absolute;
     right: 4%;
@@ -142,7 +142,7 @@ h1 {
 
 .droplet {
     display: flex;
-    margin-left: 200px;
+    margin-left: 110px;
     margin-right: auto;
     width: 25%;
     height: 30%;
