@@ -5,12 +5,13 @@ html {
     min-height:100%
 }
 body {
+    box-sizing: border-box;
     background-size: cover;
     font-family: 'Poppins', sans-serif; 
     font-size: 1.5rem
 }
  
-    
+  
 
 
 
@@ -23,9 +24,8 @@ header {
     align-items: center;
 }
 
-.logo-container, .nav-links, .menu {
-    display: flex;
-}
+
+
 
 .logo-container {
     flex: 1; 
@@ -38,13 +38,17 @@ header {
 .menu {
     padding-left: 5%;
 }
-nav {
+.nav {
+    display: flex;
+    flex-direction: row;
     flex: 3;
 }
 
-.nav-links {
+.li {
+    flex-direction: row;
     justify-content: space-around;
     list-style: none;
+    text-decoration: none;
 }
 
     
@@ -57,6 +61,7 @@ nav {
   
 
 .p.descriptions {
+    max-width: 70%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -66,7 +71,7 @@ nav {
     
 
 .bottom-section {
-    padding-top: 20%;
+    padding-top: 10%;
     display: flex;
     flex-direction: column;
     align-content: center;
