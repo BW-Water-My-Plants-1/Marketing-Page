@@ -25,6 +25,7 @@ time, mark, audio, video {
 body {
     justify-content: center;
     line-height: 1;
+    
   
     
 }
@@ -59,12 +60,4 @@ table {
 	border-collapse: collapse;
     border-spacing: 0;
     
-    
-.header {
-   
-}
-.nav-link {
-    display: flex;
-    list-style: none;
-
 }
