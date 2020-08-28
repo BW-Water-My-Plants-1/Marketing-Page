@@ -36,18 +36,30 @@ header {
     width: 90%;
 }
 h1 {
-text-align: center;
+    text-shadow: 1px 1px 2px white;
+    text-align: center;
 }
 .customerComments {
     max-width: 75%;
     justify-content: center;
 }
-nav{
+nav {
     display: flex;
+    text-decoration: none;
+    list-style: none;
+    justify-content: space-around;
+    
     
 }
+a {
+    text-decoration: none;
+    justify-content: space-between;
+}
+
 ol, ul {
-	list-style: none;
+    list-style: none;
+    text-decoration: none;
+  
 }
 blockquote, q {
 	quotes: none;
