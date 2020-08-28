@@ -1,1 +1,1 @@
-features freeze
+features freezegit add .
